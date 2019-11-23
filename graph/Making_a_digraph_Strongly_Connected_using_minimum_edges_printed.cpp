@@ -115,6 +115,8 @@ bool check(int N, int pos){ return (bool) (N & (1 << pos)); }
 
 ///=======================================template=======================================///
 
+/// source: Halim CP3 4.2.9 Finding Strongly Connected Components (Directed Graph)
+
 vvi g, g1, SCC; ///g, g1 -> adjacency lists
 vi dfs_num, dfs_low, topsort, Stack, inWhichSCC;
 vb vis, indegree, outdegree;
